@@ -22,3 +22,10 @@ Os problemas resolvidos pelo Visitor são:
 
 - Comprometimento do encapsulamento em casos que é necessário expor dados privados.
 - Quanto mais classes e visitantes mais trabalhoso será para realizar manutenção.
+
+# Exemplo
+Um exemplo de implementação está nessa pasta, a linguagem utilizada foi Typescript, então é necessário que esteja instalado em seu sistema:
+- NodeJs
+- Typescript (npm install -g typescript)
+
+Para testar o funcionamento basta rodar ```npm run build``` para transpilar o código para javascript e ```npm run start``` para executar.
