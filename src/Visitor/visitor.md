@@ -1,6 +1,6 @@
 # Descrição
 
-Descreva como funciona o padrão
+O padrão de projeto Visitor permite que operações sejam adicionadas a uma estrutura de objetos sem alterar suas classes.
 
 # Qual problema é resolvido por esse padrão? Quando utilizar?
 
