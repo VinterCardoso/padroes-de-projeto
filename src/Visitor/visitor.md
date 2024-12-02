@@ -15,8 +15,10 @@ Os problemas resolvidos pelo Visitor são:
 
 # Vantagens
 
-- Vantagens
+- Facilidade de adição de operações sem modificar suas classes
+- A lógica das operações é isolada em cada visitante, mantendo os elementos com seu foco principal.
 
 # Desvantagens
 
-- Desvantagens
+- Comprometimento do encapsulamento em casos que é necessário expor dados privados.
+- Quanto mais classes e visitantes mais trabalhoso será para realizar manutenção.
