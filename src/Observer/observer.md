@@ -4,7 +4,7 @@ O padrão de projeto Observer é classificado como comportamental, ou seja, lida
 
 # Qual problema é resolvido por esse padrão? Quando utilizar?
 
-Descrição
+Forte aclopamento é um dos problemas que podem ser resolvidos com o Observer, esse padrão ajuda a construir sistemas flexíveis e extensíveis promovendo modularidade e escalabilidade. Observer pode ser utilizado em várias situações, mas um exemplo é um sistema de estoque onde banco de dados e interface de usuário precisam ser atualizados quando um estoque de produto mudar.
 
 # Diagrama UML
 
@@ -12,8 +12,8 @@ Descrição
 
 # Vantagens
 
-- Vantagens
+A principal vantagem desse padrão de projeto é a reutilização, já que observáveis e observadores podem ser interfaces, e também o baixo aclopamento gerado pelo Observer
 
 # Desvantagens
 
-- Desvantagens
+A desvantagem seria a inundação de informações geradas pelas notificações cajo esse padrão for muito usado em um mesmo sistema.
