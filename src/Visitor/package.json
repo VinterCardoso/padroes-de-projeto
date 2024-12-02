@@ -1,0 +1,13 @@
+{
+  "name": "visitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "tsc",
+  "start": "node dist/Main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
