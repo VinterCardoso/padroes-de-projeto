@@ -1,6 +1,6 @@
 # Descrição
 
-Descreva como funciona o padrão
+O padrão de projeto proxy é uma maneira de criar um intermediário entre o cliente e um objeto base, sem que o cliente perceba que não tem acesso direto ao objeto, o padrão proxy também ajuda a controlar o uso excessivo de recursos, podendo receber a demanda diretamente do cliente e organizar o que será feito antes ou depois de acessar o objeto, caso vários clientes envie demandas diferentes ou iguais o proxy fará com que não fique sobrecarregado e consiga organizar as demandas e enviar as respostas de acordo, assim podendo acelerar pesquisas do objeto base, impedir a criação de objetos sem saber se será utilizado futuramente
 
 # Qual problema é resolvido por esse padrão? Quando utilizar?
 
