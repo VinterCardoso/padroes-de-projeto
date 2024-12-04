@@ -13,7 +13,7 @@ criação de objetos sem saber se será utilizado futuramente
 
 Objetos grandes que consomem muito recursos do sistema que não são necessários a
 todo o momento, clientes executando o código geraria códigos duplicados, esses são
-Alguns dos possíveis problemas gerados por não utilizar o proxy. Deve utilizar quando
+alguns dos possíveis problemas gerados por não utilizar o proxy. Deve utilizar quando
 desejar controlar o acesso a um objeto complexo, inicialização sensível ou cara ou
 para adicionar novas funcionalidades.
 
