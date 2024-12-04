@@ -4,7 +4,7 @@ O padrão de projeto Singleton é um padrão de criação que garante que uma cl
 
 # Qual problema é resolvido por esse padrão? Quando utilizar?
 
-O Singleton resolve o problema de garantir que apenas uma única instância de uma classe seja criada e que todos os componentes da aplicação possam acessar essa mesma instância de maneira controlada e global. Isso é útil para evitar inconsistências e economizar recursos em situações onde múltiplas instâncias poderiam causar conflitos ou redundâncias desnecessárias. O Singleton pode ser utilizado quando a aplicação requer explicitamente que haja apenas uma única instância de um objeto, e você deseja garantir isso em todo o sistema, também quando um recurso ou funcionalidade precisa ser acessível de qualquer lugar da aplicação, mas sem a necessidade de criar múltiplas instâncias.
+O Singleton resolve o problema de garantir que apenas uma única instância de uma classe seja criada e que todos os componentes da aplicação possam acessar essa mesma instância de maneira controlada e global. Isso é útil para evitar inconsistências e economizar recursos em situações onde várias instâncias poderiam causar conflitos ou redundâncias desnecessárias. O Singleton pode ser utilizado quando a aplicação requer explicitamente que haja apenas uma única instância de um objeto, e você deseja garantir isso em todo o sistema, também quando um recurso ou funcionalidade precisa ser acessível de qualquer lugar da aplicação, mas sem a necessidade de criar múltiplas instâncias.
 
 # Diagrama UML
 
