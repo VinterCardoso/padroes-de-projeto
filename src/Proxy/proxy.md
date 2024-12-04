@@ -32,4 +32,5 @@ para adicionar novas funcionalidades.
 
 # Desvantagens
 
-- Desvantagens
+- Pode deixar o código mais complexo pois seria necessario adicionar novas classes
+- A resposta do servidor pode atrasar
