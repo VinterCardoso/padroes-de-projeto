@@ -1,32 +1,44 @@
-interface objeto {
+interface Objeto {
     void display();
 }
 
-class objeto_base implements objeto{
+class ObjetoBase implements Objeto{
     private String nome_arq;
 
-    public objeto_base(String nome_arq){
+    public ObjetoBase(String nome_arq){
         this.nome_arq = nome_arq;
-        load_objeto_from_disk();
     }
 
-    public void display() {
+    public void display(){
         System.out.println("Imprimindo " + nome_arq);
     }
 }
 
-class proxy_objeto implements objeto {
-    private RealImage objeto_base;
+class ProxyObjeto implements Objeto{
+    private ObjetoBase objetoBase;
     private String nome_arq;
 
-    public ProxyImage(String nome_arq) {
+    public ProxyObjeto(String nome_arq){
         this.nome_arq = nome_arq;
     }
 
-    public void display() {
-        if (objeto_base == null) {
-            objeto_base = new objto_base(nome_arq);
+    @Override
+    public void display(){
+        if (objetoBase == null){
+            objetoBase = new ObjetoBase(nome_arq);
         }
-        objeto_base.display();
+        objetoBase.display();
+    }
+}
+
+public class Main{
+    public static void main(String[] args){
+        Objeto proxy = new ProxyObjeto("arquivo_exemplo.txt");
+
+        System.out.println("Chamando display pela primeira vez:");
+        proxy.display();
+
+        Systema.out.println("Chamando display novamente: ");
+        proxy.display();
     }
 }
