@@ -11,7 +11,7 @@ Os problemas resolvidos pelo Visitor são:
 
 # Diagrama UML
 
-![Alt text](https://purr.objects-us-east-1.dream.io/i/img_20140920_145408.jpg "a title")
+![Alt text](DiagramaUML.png "Diagrama")
 
 # Vantagens
 
