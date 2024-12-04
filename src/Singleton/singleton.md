@@ -1,6 +1,6 @@
 # Descrição
 
-O padrão de projeto Singleton é um padrão de criação que garante que uma classe tenha uma única instância ao longo de toda a aplicação e fornece um ponto global de acesso a essa instância. Ele é útil para cenários onde é necessário um único objeto que centralize recursos ou controle, como em classes que gerenciam conexões de banco de dados, logs ou configurações globai
+O padrão de projeto Singleton é um padrão de criação que garante que uma classe tenha uma única instância ao longo de toda a aplicação e fornece um ponto global de acesso a essa instância. Ele é útil para cenários onde é necessário um único objeto que centralize recursos ou controle, como em classes que gerenciam conexões de banco de dados, logs ou configurações globais.
 
 # Qual problema é resolvido por esse padrão? Quando utilizar?
 
@@ -8,8 +8,8 @@ O Singleton resolve o problema de garantir que apenas uma única instância de u
 
 # Diagrama UML
 
-![Alt text](https://lucid.app/publicSegments/view/a2a50dc0-3f6d-4487-bbf7-d5325a4bca1f/image.png "lindo")
-![alt text](singleton.png)
+![lindo](https://lucid.app/publicSegments/view/a2a50dc0-3f6d-4487-bbf7-d5325a4bca1f/image.png)
+![lindo](singleton.png)
 
 # Vantagens
 
