@@ -38,7 +38,7 @@ public class Main{
         System.out.println("Chamando display pela primeira vez:");
         proxy.display();
 
-        Systema.out.println("Chamando display novamente: ");
+        System.out.println("Chamando display novamente: ");
         proxy.display();
     }
 }
