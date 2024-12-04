@@ -9,7 +9,6 @@ O Singleton resolve o problema de garantir que apenas uma única instância de u
 # Diagrama UML
 
 ![Alt text](https://lucid.app/publicSegments/view/a2a50dc0-3f6d-4487-bbf7-d5325a4bca1f/image.png "lindo")
-![alt text](singleton.png)
 
 # Vantagens
 
