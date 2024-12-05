@@ -58,7 +58,7 @@ class SistemaAmbienteFacade {
     }
 }
 
-public class facade {
+public class Main {
     public static void main(String[] args) {
         // Usando o Facade para simplificar o processo
         SistemaAmbienteFacade ambiente = new SistemaAmbienteFacade();
