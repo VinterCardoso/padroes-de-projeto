@@ -10,3 +10,6 @@ Os temas sorteados e os responsáveis por cada tema foram os seguintes:
  - Singleton    - [Guilherme](https://github.com/guizzie)
 
 A proposta é colaborar com o projeto seguindo o [CONTRIBUTING.md](/CONTRIBUTING.md).
+
+# Referências Bibliográficas
+[Engenharia de Software Moderna - Capítulo 6](https://engsoftmoderna.info/cap6.html)
